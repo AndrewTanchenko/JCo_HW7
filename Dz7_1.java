@@ -9,14 +9,14 @@
 
 class Dz7_1 {
     
-  static  int randomAtoB(int a,int b) {
+  public static  int randomAtoB(int a,int b) {
     int random_=0;
     if(b>=a){random_=(int)(Math.random()*(b-a)+a);}
     else{random_=(int)(Math.random()*(a-b)+b);}
   return random_;
   }
   
-  static  boolean intCheck(String ...s) {
+  public static  boolean intCheck(String ...s) {
     boolean ok =false;
     int x=0;
     
