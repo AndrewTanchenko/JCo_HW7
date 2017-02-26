@@ -9,14 +9,14 @@
 
 class Dz7_2 {
     
-  static  int randomAtoB(int a,int b) {
+  public static  int randomAtoB(int a,int b) {
     int random_=0;
     if(b>=a){random_=(int)(Math.random()*(b-a)+a);}
     else{random_=(int)(Math.random()*(a-b)+b);}
   return random_;
   }
   
-  static  int summ(int ...n) {
+  public static  int summ(int ...n) {
     int sum=0;
     //System.out.println (" "+n[0]+" "+n[1]+" length:"+n.length);
     
