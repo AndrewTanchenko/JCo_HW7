@@ -15,7 +15,7 @@ payment =  ---------------,  where n = 12 * Y, r = R / (12 * 100)
 
 class CarLoan {
     
-  static  double getPayment(double p, double y, double r) {
+  public static  double getPayment(double p, double y, double r) {
     double n=0,r_=0,pay=0;
       n=12*y;
       r_=r/12/100;
@@ -24,7 +24,7 @@ class CarLoan {
   return pay;
   }
       
-  static  boolean doubleCheck(String ...s) {
+  public static  boolean doubleCheck(String ...s) {
     boolean ok =false;
     double x=0;
    for(int i=0;i<s.length;i++){
