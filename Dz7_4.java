@@ -9,7 +9,7 @@
 
 class Dz7_4 {
     
-  static  int getSummNumDigits(int n) {
+  public static  int getSummNumDigits(int n) {
       String s1=""+n;
       int sum=0;
      for(int i=1;i<=s1.length();i++){
@@ -19,7 +19,7 @@ class Dz7_4 {
   return sum;
   }
       
-  static  boolean intCheck(String ...s) {
+  public static  boolean intCheck(String ...s) {
     boolean ok =false;
     int x=0;
    for(int i=0;i<s.length;i++){
